@@ -1,7 +1,8 @@
 <img src="bankUI.png" alt="app UI" width="400"/>
 
 # **Project Name**:
-Three Tier Bank - the module 27 iteration
+Bad Bank app - the 4th iteration: a Three Tier Bank app from module 27
+(This version is not a continuation of version 3, which I used for Portfolio II. I started over with fresh code to adapt for three tiers. However, it is quite similar.)
 
 # **Description**: 
 The Three Tier Bank project, a three tier React app, initiates on the home page, with a welcome message and security warning. The first step would be to "Create Account" on its Register page or "Login" on its Login page. Once logged in, the user can "Deposit" or "Withdraw" or view his/her account "Balance." Unfortunately the account balance is not linked across pages at this time. On the final page, one can see "AllData" transactions.
@@ -31,9 +32,9 @@ The project relies on the following dependencies: ReactJS, Bootstrap, Babel, Exp
 To run my project on your machine, download the files onto your machine or clone the repo.
 
 * Navigate to the root directory, above the public folder.
-* Type terminal command: npm init
 * Type terminal command: npm install
 * Type terminal command: node index.js
+* In browser, navigate to localhost:3000 to view app.
 
 # **Support**: 
 Please contact me via email at krentmeester@uwalumni.com.
@@ -48,6 +49,7 @@ Future fixes or improvements that would be helpful to a user:
 * Once an account is created, transport the user to an account page where all accounts are visible
 * Remove the AllData page
 * NavBar tab is highlighted for the active page
+* Add additional security - biometrics, or two-factor authentication for authentication (instead of only username & password).
 
 # **License**: 
 MIT License
